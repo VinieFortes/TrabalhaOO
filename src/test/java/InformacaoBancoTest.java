@@ -1,4 +1,3 @@
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -11,16 +10,16 @@ class InformacaoBancoTest {
 
     @Test
     void DeveRetornartotalFundoBanco() {
-        ContaBancaria cliente1 = new ContaBancaria();
+        SaldoBancario cliente1 = new SaldoBancario();
             cliente1.deposito(1000.f);
 
-        ContaBancaria cliente2 = new ContaBancaria();
+        SaldoBancario cliente2 = new SaldoBancario();
             cliente2.deposito(500.f);
 
-        ContaBancaria cliente3 = new ContaBancaria();
+        SaldoBancario cliente3 = new SaldoBancario();
             cliente3.deposito(2500.f);
 
-        List<ContaBancaria> lista = new ArrayList<ContaBancaria>();
+        List<SaldoBancario> lista = new ArrayList<SaldoBancario>();
         lista.add(cliente1);
         lista.add(cliente2);
         lista.add(cliente3);
@@ -30,12 +29,12 @@ class InformacaoBancoTest {
 
     @Test
     void DeveRetornartotalClintesBanco() {
-        ContaBancaria cliente1 = new ContaBancaria();
-        ContaBancaria cliente2 = new ContaBancaria();
-        ContaBancaria cliente3 = new ContaBancaria();
+        SaldoBancario cliente1 = new SaldoBancario();
+        SaldoBancario cliente2 = new SaldoBancario();
+        SaldoBancario cliente3 = new SaldoBancario();
 
 
-        List<ContaBancaria> lista = new ArrayList<ContaBancaria>();
+        List<SaldoBancario> lista = new ArrayList<SaldoBancario>();
         lista.add(cliente1);
         lista.add(cliente2);
         lista.add(cliente3);

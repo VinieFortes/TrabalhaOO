@@ -1,4 +1,4 @@
-public class Pessoa {
+public class Cliente {
 
     private String nome;
     private int cpf;
@@ -9,7 +9,7 @@ public class Pessoa {
         return nome;
     }
 
-    public Pessoa setNome(String nome) {
+    public Cliente setNome(String nome) {
         this.nome = nome;
         return this;
     }
@@ -18,7 +18,7 @@ public class Pessoa {
         return cpf;
     }
 
-    public Pessoa setCpf(int cpf) {
+    public Cliente setCpf(int cpf) {
         this.cpf = cpf;
         return this;
     }
@@ -27,7 +27,7 @@ public class Pessoa {
         return idade;
     }
 
-    public Pessoa setIdade(int idade) {
+    public Cliente setIdade(int idade) {
         this.idade = idade;
         return this;
     }
